@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 11vh;
+    background-color: white;
+    position: fixed;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;   
+}
+
+.h1{
+    font-family: sans-serif;
+    font-size: 166%;
+    padding-top: 2%;
+    padding-left: 20%;
+    font-weight: 550;
+}
+
+.ul1{
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;  
+    margin-top: 1.2%; 
+}
+
+.li1{
+    list-style: none;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 150%;
+}
+
+.li1:hover{
+    color: white;
+    background-color: #7EB9F8;
+}
+
+.a1{
+    text-decoration: none;
+    color: black;
+}
+
+.div2{
+    width: 100%;
+    height: 65vh;
+    background-color: #7EB9F8;
+}
+
+.div2main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding-top: 7%;
+}
+
+.iconbomb{
+    margin-left: 15%;
+}
+
+
+.bomb{
+    width: 40%;
+    opacity: 0.5;
+}
+
+.bomb:hover{
+    transition: 0.1s;
+    opacity: 1;
+}
+
+.h2{
+    color: white;
+    font-family: sans-serif;
+}
+
+.lorem{
+    color: white;
+    font-family: sans-serif;
+    font-size: 150%;
+}
+
+.lorem1{
+    width: 39%;
+    text-align: center;
+    font-size: 105%;
+    font-weight: 500;
+}
+
+.div3{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+
+.h4{
+    text-align: center;
+    padding-top: 4%;
+
+
+}
+
+.imagecontainer{
+
+    width: 60%;
+    height: 55vh;
+    background-color: white;
+    margin: 5% 20%;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+
+
+}
+
+.img1{
+    width: 30%;
+}
+
+
+.div4{
+    width: 100%;
+    height: 65vh;
+    background-color: #66B8F0;
+}
+
+.h1ab{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 5%;
+}
+
+.abcompany{
+    width: 75%;
+    height: 48vh;
+    background-color: #66B8F0;
+    margin-left: 11%;
+}
+
+.flexable{
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    padding-top: 25px;
+    justify-content: center;
+    margin-left: 6%;
+}
+
+.jhon{
+    
+}
+
+.jhontext{
+    color: white;
+    text-align: center;
+    font-size: 125%;
+    margin-right: 15%;
+}
+
+.logo1{
+    width: 25%;
+    height: 5vh;
+}
+
+.linesul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.linesli{
+    list-style: none;
+    background-color: #428BCA;
+    width: 170%;
+    height: 5vh;
+    border-style: none;
+    border-radius: 10px;
+    padding-top: 15px;
+    color: white;
+    float: left;
+    padding-left: 15px;
+
+}
+
+.contacthere{
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+}
+
+.contacth{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 250%;
+    padding-top: 85px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-left: 31%;
+    margin-top: 5%;
+
+}
+
+.inemail{
+    border-radius: 5px;
+    border-style: solid;
+    width: 55%;
+    height: 7vh;
+}
+
+.btn{
+    background-color: #3276B1;
+    margin-left: 20%;
+    margin-top: 50px;
+    border-style: none;
+    border-radius: 10px;
+    width: 15%;
+    height: 5vh;
+    color: white;
+    font-size: 115%;
+}
+
+.map{
+    width: 100%;
+}
+
+.ending{
+    background-color: #7EB9F8;
+    width: 100%;
+    height: 7vh;
+}
+
+.endingp{
+    float: right;
+    padding: 25px;
+    color: white;
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 1024px) and (max-width:1200px) {
+    .ul1{
+        margin-left: 17%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1563px) {
+    .btn{
+        background-color: #3276B1;
+        margin-left: 20%;
+        margin-top: 50px;
+        border-style: none;
+        border-radius: 10px;
+        width: 15%;
+        height: 5vh;
+        color: white;
+        font-size: 65%;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .iconbomb{
+        margin-left: 17%;
+        width: 25%;
+    }
+
+    .h2{
+        padding-top: 25px;
+    }
+
+    .imagecontainer{
+        background-color: white;
+        width: 69%;
+    }
+
+    .img1{
+        width: 23%;
+    }
+
+    .div2{
+        width: 100%;
+
+    }
+
+    .div4{
+        width: 100%;
+    }
+
+    .linesli{
+        list-style: none;
+        background-color: #428BCA;
+        width: 200%;
+        height: 5vh;
+        border-style: none;
+        border-radius: 10px;
+        padding-top: 5px;
+        color: white;
+        float: left;
+        padding-left: 15px;
+    
+    }
+
+
+
+
+/* Tablet */
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    
+    .ul1{
+        
+    }
+}
+
+/*Phone*/
+
+
